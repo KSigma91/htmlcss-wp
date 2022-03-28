@@ -78,50 +78,101 @@ nav ul li a {
     width: 100%;
     /* debug */
     height: 600px;
-    background: deepskyblue;
+    /* background: deepskyblue; */
     border-radius: 10px;
 }
 
-/* .content-bottom::after {
+.content-bottom::after {
     content: '';
     display: table;
     clear: both;
-} */
-
-.content-bottom .top-bar {
-    width: 100%;
-    /* debug */
-    height: 60px;
-    background: lightskyblue;
-    border-radius: 10px 10px 0 0;
 }
 
+.content-bottom h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.content-bottom p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+
+
+/* barra main */
+.content-bottom .top-bar {
+    width: 100%; 
+}
+
+.content-bottom .top-bar h1 {
+    font-size: 30px;
+}
+
+.content-bottom .top-bar h3 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #a7a7a7;
+}
+
+/* contenuto laterale sinistra */
 .content-bottom .left {
     margin: 20px 0;
     float: left;
     width: 20%;
     /* debug */
-    height: 500px;
-    background: lightskyblue;
+    /* height: 500px; */
+    /* background: lightskyblue; */
 }
 
+.content-bottom .left img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* .content-bottom .left .opacity-bg {
+    background: red;
+    height: 300px;
+    width: 100%;
+} */
+
+/* contenuto centrale */
 .content-bottom .center {
     margin: 20px 2%;
     float: left;
     width: 56%;
     /* debug */
-    height: 500px;
-    background: lightskyblue;
+    /* height: 500px; */  
 }
 
+.content-bottom .center img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* contenuto laterale destra */
 .content-bottom .right {
     margin: 20px 0;
     float: left;
     width: 20%;
     /* debug */
     height: 500px;
-    background: lightskyblue;
+    /* background: lightskyblue; */
 }
+
+.content-bottom .right img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 
 /* impostazioni generali footer */
 .footer {
